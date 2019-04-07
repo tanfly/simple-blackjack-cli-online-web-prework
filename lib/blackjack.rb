@@ -33,6 +33,7 @@ def hit?(total)
   prompt_user
   get_user_input
     deal_card unless get_user_input == 's'
+    total
 end
 
 def invalid_command
