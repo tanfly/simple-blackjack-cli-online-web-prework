@@ -24,11 +24,10 @@ end
 
 def initial_round
   total = deal_card + deal_card
+  return total
   display_card_total(total)
 end
-total
-end
-end
+
 
 def hit?
   # code hit? here
