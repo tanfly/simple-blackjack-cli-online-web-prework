@@ -28,6 +28,7 @@ def initial_round
 end
 total
 end
+end
 
 def hit?
   # code hit? here
