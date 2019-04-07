@@ -32,7 +32,7 @@ end
 def hit?(total)
   prompt_user
   get_user_input
-    deal_card if get_user_input == 'h'
+    deal_card unless get_user_input == 's'
 end
 
 def invalid_command
