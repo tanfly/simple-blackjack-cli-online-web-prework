@@ -7,6 +7,7 @@ def deal_card
 end
 
 def display_card_total(total)
+  
 
 end
 
@@ -18,7 +19,7 @@ def get_user_input
   gets.chomp
 end
 
-def end_game
+def end_game(total)
   # code #end_game here
 end
 
